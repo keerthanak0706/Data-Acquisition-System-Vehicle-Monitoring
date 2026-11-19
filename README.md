@@ -30,3 +30,25 @@ To develop a simple data acquisition system that collects, processes, and displa
 
 ## Academic Year
 2025–2026
+## Required Arduino Libraries
+
+The following libraries are included in the project source code:
+
+| Library | Purpose |
+|---|---|
+| DHT Sensor Library | Reads temperature and humidity from the DHT22 sensor |
+| uRTCLib | Communicates with the DS3231 RTC module |
+| LiquidCrystal_I2C | Controls the I2C LCD display |
+| TimerOne | Provides timer interrupt functionality |
+| Wire | I2C communication |
+| uEEPROMLib | EEPROM communication support |
+
+### Installation Instructions
+
+1. Open Arduino IDE.
+2. Navigate to **Sketch → Include Library → Manage Libraries**.
+3. Search for the required external libraries.
+4. Install the appropriate libraries and any dependencies requested by the IDE.
+5. Open `DAS_Vehicle_Monitoring.ino`.
+6. Select the Arduino Uno board and the correct COM port.
+7. Click Verify to compile the program.
